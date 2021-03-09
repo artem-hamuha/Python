@@ -7,3 +7,5 @@ def welcome():
     birth = input("Ok, and your birth date - ")
 
     print("Well, thank you so much " + name + " your information is safe with us.")
+
+welcome()
