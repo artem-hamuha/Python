@@ -13,3 +13,22 @@ print(abs(-5))  # it always returns a positive
 
 print(pow(3, 2))  # this says three to the power of two
 # pow means power as if raise to the power of
+
+num = 8
+num2 = 5
+
+print(divmod(num, num2))  # divmod floors what you pass in and mods it
+print(num // num2, ",", num % num2)  # like this
+
+import math
+
+print(math.trunc(num))
+num = 4.5
+print(math.trunc(num))  # trunc truncate the variable you pass through it
+num = 4.99999
+print(math.trunc(num))
+
+print(math.floor(num))  # floor basically rounds the number down forcefully
+print(math.ceil(num))  # ceil basically rounds the number up forcefully
+
+
