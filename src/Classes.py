@@ -16,3 +16,7 @@ class Rectangle:
         return self.width == other.width and self.height == other.height
 
 
+x = Rectangle(10, 14)
+
+print(x)
+
