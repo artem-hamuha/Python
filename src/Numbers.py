@@ -38,7 +38,7 @@ print(encode([15, 15], '0123456789ABCDEF'))
 def rebase_from10(number, base):
     digit_map = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     if base < 2 or base > 36:
-        raise  ValueError('Invalid base: must be in range of 2 - 36')
+        raise ValueError('Invalid base: must be in range of 2 - 36')
     sign = -1 if number < 0 else 1
     number *= sign
     digits = from_base10(number, base)
