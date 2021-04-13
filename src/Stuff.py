@@ -17,3 +17,8 @@ for x in numbers:
     if count == 5:
         break
 print("Sum of first ",count,"integers is: ", num_sum)
+
+for x in range(7):
+    if x == 3 or x==6:
+        continue
+    print(x)
