@@ -1,5 +1,6 @@
 import turtle
 
+
 wn = turtle.Screen()
 wn.title("Pong")
 wn.bgcolor("black")
@@ -35,8 +36,8 @@ ball.shape("square")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 2
-ball.dy = 2
+ball.dx = 0.5
+ball.dy = 0.5
 
 # Pen
 pen = turtle.Turtle()
@@ -79,3 +80,7 @@ wn.onkeypress(paddle_b_down, "Down")
 # Main game loop
 while True:
     wn.update()
+    # Move the ball
+    ball.setx(ball.xcor() + ball.dx)
+    ball.sety(ball.ycor() + ball.dy)
+
