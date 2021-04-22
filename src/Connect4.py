@@ -57,7 +57,7 @@ def winning_move(board, piece):
                 c + 3] == piece:
                 return True
 
-    # Check negatively sloped diaganols
+    # Check negatively sloped diagnols
     for c in range(COLUMN_COUNT - 3):
         for r in range(3, ROW_COUNT):
             if board[r][c] == piece and board[r - 1][c + 1] == piece and board[r - 2][c + 2] == piece and board[r - 3][
