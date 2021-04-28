@@ -1,6 +1,6 @@
-from math import trunc
 from math import floor
 from math import ceil
+from math import trunc
 
 print(int(10.6), int(10.9), int(10.3))
 
