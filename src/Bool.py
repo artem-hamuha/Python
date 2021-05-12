@@ -1,17 +1,12 @@
-x = True
-b = bool(x)
+print(100 != 0)
+print(bool(100))
 
-print(type(x))
-print(type(b))
-print(b)
+print(0 != 0)
+print(bool(0))
 
-x = False
-b = bool(x)
-print(b)  # False
+a = [2, 2, 3]
+if a is not None and len(a) > 0:
+    print(a[0])
+else:
+    print("Nothing to see here...")
 
-x = None
-b = bool(x)
-
-print(type(x))
-print(type(b))
-print(b)
